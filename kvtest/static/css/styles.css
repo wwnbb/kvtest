@@ -1,0 +1,20 @@
+div.active {
+    background: gray;
+}
+
+
+div.mytree div {
+    padding-left:20px;
+    background:transparent url(http://www3.telus.net/jianlu58/bullet.gif) no-repeat top left;
+}
+div.mytree div.parent div {
+    display:none;
+    cursor:default;
+}
+div.mytree div.parent {
+    cursor:pointer ;
+    background:transparent url(http://www3.telus.net/jianlu58/plus.gif) no-repeat top left;
+}
+div.mytree div.expanded {
+    background:transparent url(http://www3.telus.net/jianlu58/minus.gif) no-repeat top left;
+}

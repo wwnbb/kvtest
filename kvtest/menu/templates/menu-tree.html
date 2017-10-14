@@ -1,0 +1,9 @@
+{% for link in links %}
+    <div {% if request.path == link.url %}class="active"{% endif %}><a href='{{ link.url }}'>{{ link.text }}</a>
+        {% with "menu-tree.html" as filename %}
+            {% with link.childs.all as links %}
+                {% include filename %}
+            {% endwith %}
+        {% endwith %}
+    </div>
+{% endfor %}
