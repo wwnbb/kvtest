@@ -77,9 +77,9 @@ WSGI_APPLICATION = 'kvtest.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'home',
-        'USER': 'wwnbb',
-        'PASSWORD': 'home',
+        'NAME': '',
+        'USER': '',
+        'PASSWORD': '',
         'HOST': 'localhost',
         'PORT': '',
     }
